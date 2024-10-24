@@ -12,8 +12,24 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        myFont1: ['myFont1', 'Arial', 'sans-serif'], 
+        myFont2: ['myFont2', 'Arial', 'sans-serif'], 
+        myFont3: ['myFont3', 'Arial', 'sans-serif'], 
+        myFont4: ['myFont4', 'Arial', 'sans-serif'], 
+        myFont5: ['myFont5', 'Arial', 'sans-serif'], 
+        myFont6: ['myFont6', 'Arial', 'sans-serif'], 
+        myFont7: ['myFont7', 'Arial', 'sans-serif'], 
+        myFont8: ['myFont8', 'Arial', 'sans-serif'], 
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui:{
+    themes:['light']
+  }
+
 };
 export default config;

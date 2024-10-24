@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: 'myFont8';
+  src: url("/fonts/myFont8.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'myFont7';
+  src: url("/fonts/myFont7.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'myFont6';
+  src: url("/fonts/myFont6.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'myFont5';
+  src: url("/fonts/myFont5.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'myFont4';
+  src: url("/fonts/myFont4.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'myFont3';
+  src: url("/fonts/myFont3.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'myFont2';
+  src: url("/fonts/myFont2.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'myFont1';
+  src: url("/fonts/myFont1.woff2") format('woff2');
+  font-weight: 400; /* Adjust the weight as needed */
+  font-style: normal;
+  font-display: swap;
+}
