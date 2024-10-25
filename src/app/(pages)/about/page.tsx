@@ -1,4 +1,5 @@
 import Changing from '@/app/(components)/Aboutpage/Changing';
+import Companies from '@/app/(components)/Aboutpage/Companies';
 import Mission from '@/app/(components)/Aboutpage/Mission';
 import Story from '@/app/(components)/Aboutpage/Story';
 import Navbar from '@/app/(components)/navbar';
@@ -11,6 +12,7 @@ const page = () => {
             <Mission/>
             <Story/>
             <Changing/>
+            <Companies/>
         </main>
     );
 };
