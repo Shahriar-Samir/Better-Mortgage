@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        greenDefault: '#004733'
       },
       fontFamily: {
         myFont1: ['myFont1', 'Arial', 'sans-serif'], 
@@ -22,6 +23,7 @@ const config: Config = {
         myFont7: ['myFont7', 'Arial', 'sans-serif'], 
         myFont8: ['myFont8', 'Arial', 'sans-serif'], 
       },
+
     },
   },
   plugins: [
