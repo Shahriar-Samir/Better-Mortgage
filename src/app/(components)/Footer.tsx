@@ -9,7 +9,7 @@ import LinkedIn from './Svgs/LinkedIn';
 const Footer = () => {
     return (
         <div className='bg-[#FFFDFA]'>
-            <footer className="flex p-10 gap-16 ">
+            <footer className="flex p-16 gap-16 pt-12 border-t-2 mt-32">
                 
 <nav className='w-4/12'>
  <div className='flex flex-col gap-1'>
@@ -92,12 +92,12 @@ const Footer = () => {
     </div>
   </nav>
 </footer>
-<section className='flex gap-3 mt-48 px-10'>
+<section className='flex gap-3 mt-48 px-16'>
   <Facebook/>
   <Instagram/>
   <LinkedIn/>
 </section>
-<footer className="flex  flex-col text-xs font-myFont3 mt-12 px-10">
+<footer className="flex  flex-col text-xs font-myFont3 mt-12 px-16">
 <h1 className='border-b-2 border-b-gray-300 pb-10'><p><sup>1</sup> Better Mortgage’s One Day Mortgage™ promotion offers qualified customers who provide certain required financial information/documentation to Better Mortgage within 4 hours of locking a rate on a mortgage loan the opportunity to receive an underwriting determination from Better Mortgage within 24 hours of their rate lock. The underwriting determination is subject to customary terms, including fraud and anti-money laundering checks, that take place pre-closing and which may trigger additional required documentation from the customer. Better Mortgage does not guarantee that initial underwriting approval will result in a final underwriting approval. See One Day Mortgage™ Terms and Conditions.</p>
 <br/>
 <p><sup>2</sup> Better Mortgage’s One Day HELOC™ promotion offers qualified customers who provide certain required financial information/documentation to Better Mortgage within 4 hours of locking a rate on a HELOC loan the opportunity to receive an underwriting determination from Better Mortgage within 24 hours of their rate lock. The underwriting determination is subject to customary terms, including fraud and anti-money laundering checks, that take place pre-closing and which may trigger additional required documentation from the customer. Better Mortgage does not guarantee that initial underwriting approval will result in final underwriting approval. See One Day HELOC™ Terms and Conditions.</p>
