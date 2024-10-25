@@ -4,7 +4,7 @@ import Telephone from '../Svgs/Telephone';
 
 const Navbar = () => {
     return (
-        <header>
+        <header className='sticky top-0 bg-[#FFFDFA]'>
             <nav className='flex justify-between items-center w-10/12 mx-auto py-10 border-b-4 relative'>
                 <StartTitle/>
                 <div className='flex items-center gap-2'>
