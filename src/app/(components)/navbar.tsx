@@ -128,7 +128,7 @@ const Navbar = () => {
         <h1 className='text-[7rem] leading-none text-white text-center font-myFont5 mt-8'>The rate drop you&rsquo;ve been waiting for</h1>
         <div className='flex justify-between w-9/12 mt-52'>
           <div className='flex flex-col items-center gap-2'>
-          <Link href='/start' className='px-12 py-5 rounded-full bg-[#1EE07F] font-myFont5'>Start my approval</Link>
+          <Link href='/start' className='px-12 py-5 rounded-full bg-[#1EE07F] font-myFont5 hover:bg-transparent hover:text-white transition ease-in'>Start my approval</Link>
           <h4 className='flex gap-2 items-center font-myFont3 text-sm text-gray-200'><MdOutlineTimer/> 3 min
           | No credit impact</h4>
           </div>
