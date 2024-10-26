@@ -9,68 +9,78 @@ import Google from './Svgs/Google';
 import Star from './Svgs/Star';
 import HalfStar from './Svgs/HalfStar';
 import { MdOutlineTimer } from "react-icons/md";
+import Tele2 from './Svgs/Tele2';
+import Tele from './Svgs/Tele';
 
 
 
 const Navbar = () => {
-  const [bgColor, setBgColor] = useState('bg-greenDefault'); 
-  const [textColor, setTextColor] = useState('text-white'); 
-  const [bannerHeight, setBannerHeight] = useState(0);
+  const [bgColor, setBgColor] = useState('bg-greenDefault')
+  const [textColor, setTextColor] = useState('text-white')
+  const [btnColor, setBtnColor] = useState('bg-[#1EE07F]')
+  const [btnText, setBtnText] = useState('text-black')
+  const [bannerHeight, setBannerHeight] = useState(0)
+  const [logo,setLogo]= useState(<Tele/>)
   const bannerRef = useRef(null); 
 
   useEffect(() => {
 
     if (bannerRef.current) {
-      setBannerHeight(bannerRef.current.offsetHeight);
+      setBannerHeight(bannerRef.current.offsetHeight)
     }
 
     const handleResize = () => {
       if (bannerRef.current) {
-        setBannerHeight(bannerRef.current.offsetHeight);
+        setBannerHeight(bannerRef.current.offsetHeight)
       }
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize)
     
  
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('resize', handleResize)
     };
   }, []);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-
+      const scrollPosition = window.scrollY
     
       if (scrollPosition < bannerHeight) {
-        setBgColor('bg-greenDefault'); 
-        setTextColor('text-white');    
+        setBgColor('bg-greenDefault') 
+        setTextColor('text-white')   
+        setBtnColor('bg-[#1EE07F]') 
+        setBtnText('text-black')  
+        setLogo(<Tele/>)
       } else {
-        setBgColor('bg-white');        
-        setTextColor('text-black');   
+        setBgColor('bg-white')     
+        setTextColor('text-black')
+        setBtnColor('bg-[#017848]')   
+        setBtnText('text-white')   
+        setLogo(<Tele2/>)
       }
     };
 
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll)
 
    
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('scroll', handleScroll)
     };
-  }, [bannerHeight]); 
+  }, [bannerHeight])
 
   return (
     <>
    
 
-      <nav className={`navbar transition-all font-myFont3 w-full fixed top-0 left-0 right-0 z-50 bg-greenDefault ${bgColor} ${textColor}`}>
-        <div className="navbar-start">
-          <a className="btn btn-ghost text-xl ">
+      <nav className={`navbar justify-between md:justify-start transition-all font-myFont3 w-full fixed top-0 left-0 right-0 z-50 bg-greenDefault items-center ${bgColor} ${textColor} w-full`}>
+        <div className="md:navbar-start">
+          <a className="btn btn-ghost text-xl">
             <Title/>
           </a>
-          <ul className="menu menu-horizontal hidden lg:inline-flex px-1 text-base">
+          <ul className="menu menu-horizontal hidden xl:inline-flex px-1 font-myFont3 gap-6  text-sm">
             <li><a>Buy</a></li>
             <li><a>Refinance</a></li>
             <li><a>HELOC</a></li>
@@ -78,15 +88,10 @@ const Navbar = () => {
             <li><a>Better+</a></li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn m-1">Click</div>
-            <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-              <li><a>Item 1</a></li>
-              <li><a>Item 2</a></li>
-            </ul>
-          </div>
-          <a className={`${textColor}`}>Sign in</a>
+        <div className="md:navbar-end flex gap-3 md:gap-10">
+            <div tabIndex={0} role="button"  className='w-[45px] h-[45px] rounded-full flex justify-center items-center border'>{logo}</div>
+          <a className={`${textColor} hidden md:inline`}>Sign in</a>
+          <button className={`${btnColor} hover:bg-[#004733] text-sm ${btnText} rounded-full px-5 py-3 font-myFont5`}>Continue</button>
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -121,18 +126,18 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <section ref={bannerRef} className="banner bg-greenDefault h-[160vh] flex justify-start items-center flex-col px-7 relative">
+      <section ref={bannerRef} className="banner bg-greenDefault h-[100vh] md:h-[120vh] lg:h-[160vh] flex justify-start items-center flex-col px-7 relative w-full">
 
         <div className='z-20 flex justify-center items-center flex-col mt-32'>
-        <h3 className='flex items-center gap-3 text-white text-[2rem] font-myFont3'><Progress/> Rate drop alert</h3>
-        <h1 className='text-[7rem] leading-none text-white text-center font-myFont5 mt-8'>The rate drop you&rsquo;ve been waiting for</h1>
-        <div className='flex justify-between w-9/12 mt-52'>
+        <h3 className='flex items-center gap-3 text-white text-xl md:text-[2rem] font-myFont3'><Progress/> Rate drop alert</h3>
+        <h1 className='text-5xl md:text-6xl lg:text-[7rem] leading-none text-white text-center font-myFont5 mt-8'>The rate drop you&rsquo;ve been waiting for</h1>
+        <div className='flex justify-between flex-col items-center h-[55vh] md:h-full md:flex-row w-9/12 mt-10 md:mt-52'>
           <div className='flex flex-col items-center gap-2'>
           <Link href='/start' className='px-12 py-5 rounded-full bg-[#1EE07F] font-myFont5 hover:bg-transparent hover:text-white transition ease-in'>Start my approval</Link>
           <h4 className='flex gap-2 items-center font-myFont3 text-sm text-gray-200'><MdOutlineTimer/> 3 min
           | No credit impact</h4>
           </div>
-          <div className=''>
+          <div className='md:block mb-10 md:mb-0'>
             <div className='flex gap-2'>
             <Google/>
             <div className='flex gap-[1px]'>
@@ -149,7 +154,7 @@ const Navbar = () => {
         </div>
         </div>
 
-        <Image width={500} height={500} alt='banner mobile' src='/pics/banner.webp' className='absolute bottom-0 z-10'/>
+        <Image width={500} height={500} alt='banner mobile' src='/pics/banner.webp' className='absolute bottom-0 z-10 w-[500px]'/>
       </section>
     </>
   );

@@ -9,9 +9,9 @@ import LinkedIn from './Svgs/LinkedIn';
 const Footer = () => {
     return (
         <div className='bg-[#FFFDFA]'>
-            <footer className="flex p-16 gap-16 pt-12 border-t-2 mt-32">
+            <footer className="flex flex-col md:flex-row p-16 gap-16 pt-12 border-t-2 mt-32">
                 
-<nav className='w-4/12'>
+<nav className='md:w-4/12'>
  <div className='flex flex-col gap-1'>
  <h1 className='text-[#017848] text-2xl'><Title2/></h1>
  <a className="link link-hover mt-4 font-myFont3">Better is a family of companies serving all your homeownership needs.</a>
@@ -41,7 +41,7 @@ const Footer = () => {
 </div>
   </nav>
 
-  <nav className='flex flex-col w-3/12'>
+  <nav className='flex flex-col md:w-3/12'>
     <h6 className="font-myFont5 text-lg">Resources</h6>
     <ul className='flex flex-col gap-5 mt-5'>
     <a className="link link-hover font-myFont3">Home affordability calculator</a>
@@ -57,7 +57,7 @@ const Footer = () => {
     <a className="link link-hover font-myFont3">Get home inspection</a>
     </ul>
   </nav>
-  <nav className='flex flex-col w-3/12'>
+  <nav className='flex flex-col md:w-3/12'>
     <h6 className="font-myFont5 text-lg">Company</h6>
     <ul className='flex flex-col gap-5 mt-5'>
     <a className="link link-hover font-myFont3">About Us</a>
@@ -69,7 +69,7 @@ const Footer = () => {
     <a className="link link-hover font-myFont3">Investor Relations</a>
     </ul>
   </nav>
-  <nav className='flex flex-col w-3/12'>
+  <nav className='flex flex-col md:w-3/12'>
     <h6 className="font-myFont5 text-lg">Contact Us</h6>
     <ul className='flex flex-col gap-5 mt-5'>
     <a className="link link-hover font-myFont3">hello@better.com</a>
