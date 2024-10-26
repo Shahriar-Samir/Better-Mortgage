@@ -4,7 +4,7 @@ const Companies = () => {
     return (
         <section className='mt-28'>
             <h1 className='text-center text-3xl font-myFont5'>Backed by</h1>
-            <div className='w-full flex gap-2 justify-center mt-20'>
+            <div className='md:w-full mx-auto flex gap-2 justify-center mt-20 flex-col md:flex-row w-1/2 md:flex-wrap'>
                 <img src='/companies/company1.svg'/>
                 <img src='/companies/company2.svg'/>
                 <img src='/companies/company3.svg'/>

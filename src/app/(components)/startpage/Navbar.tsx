@@ -13,7 +13,7 @@ const Navbar = () => {
                     </div>
                     <h5 className="font-myFont5 hidden md:block">Need help? Call (415) 523 8837</h5>
                 </div>
-                <img src='/pics/betty1.jpg' className='absolute rounded-full w-[50px] bottom-[-25px] left-[47%]'/>
+                <img src='/pics/betty1.jpg' className='absolute rounded-full w-[50px] bottom-[-25px]  left-[50%] -translate-x-[47%]'/>
             </nav>
         </header>
     );
