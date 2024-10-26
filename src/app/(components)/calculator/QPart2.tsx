@@ -26,7 +26,8 @@ const QPart2 = () => {
             <article className='py-10 border-t border-b border-gray-300'>
                 <h1 className='text-2xl font-myFont5 '>Do you know your property tax rate?</h1>
                 <p className='mt-5 text-sm font-myFont3 text-gray-600'>While exact property tax rates vary by county, it can be helpful to look at taxes on the state level to get an idea for taxes in your state. Here’s a helpful chart from Forbes breaking down the Census Bureau’s 2021 American Community Survey 5-year estimate:</p>
-                <table className="min-w-full bg-white border border-gray-200 mt-16">
+               <div className='overflow-x-auto'>
+               <table className="w-full bg-white border border-gray-200 mt-16 table">
         <thead>
           <tr className="bg-gray-200 text-gray-700">
             <th className="px-4 py-2 border border-gray-300">State</th>
@@ -48,6 +49,7 @@ const QPart2 = () => {
           ))}
         </tbody>
       </table>
+               </div>
             </article>
 
             <article className='py-10 border-t border-b border-gray-300'>

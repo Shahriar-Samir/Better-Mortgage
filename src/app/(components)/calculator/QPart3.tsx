@@ -21,7 +21,7 @@ const QPart3 = () => {
 
             <section>
             <h1 className='mt-10 text-3xl font-myFont5 '>More resources</h1>
-            <div className='grid grid-cols-3 gap-5 mt-8'>
+            <div className='grid md:grid-cols-3 gap-5 mt-8'>
                 <div className='border py-6 px-8 rounded-lg border-gray-300'>
                     <img src='https://media.better.com/better-com/mortgage-calculator/doc-correct.svg'/>
                     <h2 className='mt-3 text-xl font-myFont3'>Get pre-approved to see how much you can borrow</h2>

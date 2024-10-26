@@ -8,7 +8,7 @@ const Calculator = () => {
                 <h1 className='text-5xl font-myFont5'>Mortgage calculator</h1>
                 <p className='mt-8 max-w-[800px] font-myFont3 text-gray-600'>Our mortgage calculator includes key factors like homeowners association fees, property taxes, and private mortgage insurance (PMI). Get the whole picture and calculate your total monthly payment.</p>
             </div>
-            <div className='flex  gap-10 justify-between items-center w-11/12 mx-auto max-w-[1200px]'>
+            <div className='flex flex-col  gap-10 justify-between items-center w-11/12 mx-auto max-w-[1200px]'>
                 <div className=''>
                 <h2 className='text-md font-myFont5'>Home Price</h2>
                 <input className='mt-5'/>

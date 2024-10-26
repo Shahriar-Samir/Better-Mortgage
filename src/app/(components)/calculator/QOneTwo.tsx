@@ -18,7 +18,7 @@ const QOneTwo = () => {
         Your DTI is the balance between your income and your debt. It helps lenders understand how safe or risky it is for them to approve your loan. A DTI ratio represents how much of your gross monthly income is spoken for by creditors, and how much of it is left over to you as disposable income. It’s most commonly written as a percentage. For example, if you pay half your monthly income in debt payments, you would have a DTI of 50%.
       </p>
     </div>
-   <div className='w-8/12 mx-auto'>
+   <div className='w-full md:w-8/12 mx-auto'>
    <p className='mt-5 text-sm font-myFont3 text-gray-800'>Formula for calculating your debt-to-income (DTI) ratio:</p>
                 <img src='/pics/dti-formula.jpg' className='mt-3'/>
                 <p className='mt-5 text-sm font-myFont3 text-gray-800'>Here’s an example of what calculating your DTI might look like:</p>
@@ -32,7 +32,7 @@ const QOneTwo = () => {
             <p className='mt-5 text-sm font-myFont3 text-gray-600'>Your monthly mortgage payment includes loan principal and interest, property taxes, homeowners insurance, and mortgage insurance (PMI), if applicable. While not typically included in your mortgage payment, homeowners also pay monthly utilities and sometimes pay homeowners association (HOA) fees, so it’s a good idea to factor these into your monthly budget. This mortgage calculator factors in all these typical monthly costs so you can really crunch the numbers.</p>
             <h2 className='text-xl font-myFont5 mt-5'>Formula for calculating monthly mortgage payments</h2>
             <p className='mt-4 text-sm font-myFont3 text-gray-600'>The easiest way to calculate your mortgage payment is to use a calculator, but for the curious or mathematically inclined, here’s the formula for calculating principal and interest yourself:</p>
-            <div className='w-8/12 mx-auto'>
+            <div className='w-full md:w-8/12 mx-auto'>
             <img src='/pics/payments-formula.jpg' className='mt-4'/>
             <div className="text-sm font-myFont3 text-gray-600">
                 <h1 className='mt-3'>Where:</h1>
