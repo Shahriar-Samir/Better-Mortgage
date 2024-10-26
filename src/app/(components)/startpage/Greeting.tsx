@@ -9,7 +9,7 @@ import phone from '/phone.svg'
 
 const Greeting = () => {
     return (
-        <section className='flex justify-center items-center mt-20 flex-col w-full max-w-[550px] mx-auto'>
+        <section className='flex justify-center items-center mt-20 flex-col w-11/12 max-w-[550px] mx-auto'>
                 <div className='flex flex-col items-center'>
                 <h1 className='font-myFont5 text-3xl'>Hi, I'm Betsy!</h1>
                 <h1 className='font-myFont5 text-3xl'>What can I help you with?</h1>
