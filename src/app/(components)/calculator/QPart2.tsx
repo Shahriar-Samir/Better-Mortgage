@@ -15,9 +15,9 @@ const QPart2 = () => {
                 <h1 className='text-2xl font-myFont5 '>How to use this mortgage calculator?</h1>     
 <div className='mt-5 text-sm font-myFont3 text-gray-600'>
 <p >Play around with different home prices, locations, down payments, interest rates, and mortgage lengths to see how they impact your monthly mortgage payments.</p><br></br>
-<p>Increasing your down payment and decreasing your interest rate and mortgage term length will make your monthly payment go down. Taxes, insurance, and HOA fees will vary by location. If you enter a down payment amount that’s less than 20% of the home price, private mortgage insurance (PMI) costs will be added to your monthly mortgage payment. As the costs of utilities can vary from county to county, we’ve included a utilities estimate that you can break down by service. If you’re thinking about buying a condo or into a community with a Homeowners Association (HOA), you can add HOA fees.</p>
+<p>Increasing your down payment and decreasing your interest rate and mortgage term length will make your monthly payment go down. Taxes, insurance, and HOA fees will vary by location. If you enter a down payment amount that&apos;s less than 20% of the home price, private mortgage insurance &#40;PMI&#41; costs will be added to your monthly mortgage payment. As the costs of utilities can vary from county to county, we&apos;ve included a utilities estimate that you can break down by service. If you&apos;re thinking about buying a condo or into a community with a Homeowners Association &#40;HOA&#41;, you can add HOA fees.</p>
 <br></br>
-<p>The only amounts we haven’t included are the money you’ll need to save for annual home maintenance/repairs or the costs of home improvements. To see how much home you can afford including these costs, take a look at the Better home affordability calculator.</p>
+<p>The only amounts we haven&apos;t included are the money you&apos;ll need to save for annual home maintenance/repairs or the costs of home improvements. To see how much home you can afford including these costs, take a look at the Better home affordability calculator.</p>
 <br></br>
 <p><strong>Fun fact:</strong> Property tax rates are extremely localized, so two homes of roughly the same size and quality on either side of a municipal border could have very different tax rates. Buying in an area with a lower property tax rate may make it easier for you to afford a higher-priced home.</p>
 </div>
@@ -25,7 +25,7 @@ const QPart2 = () => {
             </article>
             <article className='py-10 border-t border-b border-gray-300'>
                 <h1 className='text-2xl font-myFont5 '>Do you know your property tax rate?</h1>
-                <p className='mt-5 text-sm font-myFont3 text-gray-600'>While exact property tax rates vary by county, it can be helpful to look at taxes on the state level to get an idea for taxes in your state. Here’s a helpful chart from Forbes breaking down the Census Bureau’s 2021 American Community Survey 5-year estimate:</p>
+                <p className='mt-5 text-sm font-myFont3 text-gray-600'>While exact property tax rates vary by county, it can be helpful to look at taxes on the state level to get an idea for taxes in your state. Here&apos;s a helpful chart from Forbes breaking down the Census Bureau&apos;s 2021 American Community Survey 5-year estimate:</p>
                <div className='overflow-x-auto'>
                <table className="w-full bg-white border border-gray-200 mt-16 table">
         <thead>
@@ -68,17 +68,17 @@ const QPart2 = () => {
                 <div className='mt-5 text-sm font-myFont3 text-gray-600'>
                    <p> PMI, an abbreviation for private mortgage insurance, aids potential homeowners in qualifying for a mortgage without the necessity of a 20% down payment. By opting for a lower down payment and choosing a mortgage with PMI, you can purchase a home sooner, begin accruing equity, and keep cash available for future needs. This can all be calculated using this Mortgage Calculator.</p>
                     <br></br>
-                <p>Choosing a mortgage with PMI is a popular option: 71% of first-time homebuyers had a down payment of less than 20% in July 2021. In 2020, the median down payment for first-time homebuyers was just 7%, and it hasn’t risen above 10% since 1989.</p>
+                <p>Choosing a mortgage with PMI is a popular option: 71% of first-time homebuyers had a down payment of less than 20% in July 2021. In 2020, the median down payment for first-time homebuyers was just 7%, and it hasn&apost risen above 10% since 1989.</p>
                 <br></br>
                 <p>PMI is automatically removed from conventional mortgages once your home equity reaches 22%. Alternatively, you can request the removal of PMI once you've accumulated at least 20% home equity.</p>
 </div>
 
 <h2 className='mt-8 text-xl font-myFont5 '>This mortgage calculator includes HOA fees</h2>
 <div className='mt-5 text-sm font-myFont3 text-gray-600'>
-    <p>Homeowners association (“HOA”) fees are typically charged directly by a homeowners association, but as HOA fees come part and parcel with condos, townhomes, and planned housing developments, they’re an essential factor to consider when calculating your mortgage costs.
+    <p>Homeowners association &#40“HOA”&#41 fees are typically charged directly by a homeowners association, but as HOA fees come part and parcel with condos, townhomes, and planned housing developments, they&apos;re an essential factor to consider when calculating your mortgage costs.
     </p>
     <br></br>
-    <p>Homes that share structural elements, such as roofs and walls, or community amenities like landscaping, pools, or BBQ areas, often require homeowners to pay HOA fees for the maintenance of these shared features. It's important to factor in these costs during your budget planning stage, especially considering that HOA fees typically increase annually. HOAs may also charge additional fees known as ‘special assessments’ to cover unexpected expenses from time to time.</p>
+    <p>Homes that share structural elements, such as roofs and walls, or community amenities like landscaping, pools, or BBQ areas, often require homeowners to pay HOA fees for the maintenance of these shared features. It's important to factor in these costs during your budget planning stage, especially considering that HOA fees typically increase annually. HOAs may also charge additional fees known as &apos;special assessments&apos; to cover unexpected expenses from time to time.</p>
 </div>
             </article>
 
@@ -86,20 +86,20 @@ const QPart2 = () => {
                 <h1 className='text-3xl font-myFont5 '>How to reduce your monthly mortgage payments?</h1>
                 <p className='mt-7 text-sm font-myFont3 text-gray-600'>The lower the purchase price of the home, the lower your loan amount will be. But if the seller is less than willing to cut you a deal, you have other options.</p>
                 <h2 className='mt-8 text-xl font-myFont5  '>Extend the length of your mortgage</h2>
-                <p className='mt-5 text-sm font-myFont3 text-gray-600'>The more time you have to pay off the mortgage, the less each monthly mortgage payment will be. (In lender-speak, ‘extending the length of your mortgage’ is known as ‘increasing your loan term’.) This is why people often choose a 30-year fixed rate mortgage over one with a 15- or 20-year term.</p>
+                <p className='mt-5 text-sm font-myFont3 text-gray-600'>The more time you have to pay off the mortgage, the less each monthly mortgage payment will be. &#40In lender-speak, &apos;extending the length of your mortgage&apos; is known as &apos;increasing your loan term&apos;.&#41 This is why people often choose a 30-year fixed rate mortgage over one with a 15- or 20-year term.</p>
 
                 <h2 className='mt-8 text-xl font-myFont5 '>Increase your down payment</h2>
-                <p className='mt-5 text-sm font-myFont3 text-gray-600'>The smaller the amount of your mortgage, the smaller your monthly mortgage payments will be. If you’re able to put at least 20% of the home price towards your down payment, you’ll be able to avoid PMI (private mortgage insurance). Even if you can’t afford a complete 20% down payment, boosting your down payment will help you get PMI removed sooner. In fact, boosting your down payment by 5% can lower your monthly PMI fees.</p>
+                <p className='mt-5 text-sm font-myFont3 text-gray-600'>The smaller the amount of your mortgage, the smaller your monthly mortgage payments will be. If you&apos;re able to put at least 20% of the home price towards your down payment, you&apos;ll be able to avoid PMI &#40private mortgage insurance&#41. Even if you can&apos;t afford a complete 20% down payment, boosting your down payment will help you get PMI removed sooner. In fact, boosting your down payment by 5% can lower your monthly PMI fees.</p>
 
 
                 <h2 className='mt-8 text-xl font-myFont5'>Get a lower interest rate</h2>
-                <p className='mt-5 text-sm font-myFont3 text-gray-600'>Increasing your down payment can be one way to help you qualify for a lower interest rate. The amount of your down payment compared to the total amount of the loan is called your loan-to-value ratio (LTV).
+                <p className='mt-5 text-sm font-myFont3 text-gray-600'>Increasing your down payment can be one way to help you qualify for a lower interest rate. The amount of your down payment compared to the total amount of the loan is called your loan-to-value ratio &#40LTV&#41.
 
 Depending on your loan amount, a lower LTV may increase the likelihood of you being offered a low interest rate. If you intend on keeping your home for a while, you could consider buying points to reduce your interest rate. Buying points essentially means you agree to pay more upfront costs in exchange for a lower monthly payment.
 
-If you think you may sell or refinance the home in the first 5-10 years of the mortgage, you could consider an adjustable-rate mortgage (ARM). An ARM offers a lower fixed interest rate for a set introductory period—typically 5, 7, or 10 years. Once the set introductory period ends, the interest rate adjusts (interest rate may increase after consummation). The introductory interest rate for ARMs is typically lower than the interest rate for a conventional fixed-rate mortgage which could make it a great way to save on interest if you know you won’t keep the mortgage for long.
+If you think you may sell or refinance the home in the first 5-10 years of the mortgage, you could consider an adjustable-rate mortgage &#40ARM&#41. An ARM offers a lower fixed interest rate for a set introductory period—typically 5, 7, or 10 years. Once the set introductory period ends, the interest rate adjusts &#40interest rate may increase after consummation&#41. The introductory interest rate for ARMs is typically lower than the interest rate for a conventional fixed-rate mortgage which could make it a great way to save on interest if you know you won&apos;t keep the mortgage for long.
 
-If you’re not planning on buying a home for a while, improving your credit score is a tried and true way of increasing your chances of qualifying for a lower interest rate. By reducing your debt-to-income ratio (DTI), lenders will see that you comfortably afford your mortgage and may be more willing to offer a lower interest rate.</p>
+If you&apos;re not planning on buying a home for a while, improving your credit score is a tried and true way of increasing your chances of qualifying for a lower interest rate. By reducing your debt-to-income ratio &#40DTI&#41, lenders will see that you comfortably afford your mortgage and may be more willing to offer a lower interest rate.</p>
             </article>
         </section>
     );

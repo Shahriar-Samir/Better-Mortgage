@@ -15,13 +15,13 @@ const QOneTwo = () => {
         Lenders determine how much you can afford on a monthly housing payment by calculating your debt-to-income ratio (DTI). The maximum DTI you can have in order to qualify for most mortgage loans is often between 45-50%, with your anticipated housing costs included.
       </p><br></br>
       <p>
-        Your DTI is the balance between your income and your debt. It helps lenders understand how safe or risky it is for them to approve your loan. A DTI ratio represents how much of your gross monthly income is spoken for by creditors, and how much of it is left over to you as disposable income. It’s most commonly written as a percentage. For example, if you pay half your monthly income in debt payments, you would have a DTI of 50%.
+        Your DTI is the balance between your income and your debt. It helps lenders understand how safe or risky it is for them to approve your loan. A DTI ratio represents how much of your gross monthly income is spoken for by creditors, and how much of it is left over to you as disposable income. It&apos;s most commonly written as a percentage. For example, if you pay half your monthly income in debt payments, you would have a DTI of 50%.
       </p>
     </div>
    <div className='w-full md:w-8/12 mx-auto'>
-   <p className='mt-5 text-sm font-myFont3 text-gray-800'>Formula for calculating your debt-to-income (DTI) ratio:</p>
+   <p className='mt-5 text-sm font-myFont3 text-gray-800'>Formula for calculating your debt-to-income &lpar;DTI&rpar; ratio:</p>
                 <img src='/pics/dti-formula.jpg' className='mt-3'/>
-                <p className='mt-5 text-sm font-myFont3 text-gray-800'>Here’s an example of what calculating your DTI might look like:</p>
+                <p className='mt-5 text-sm font-myFont3 text-gray-800'>Here&apos;s an example of what calculating your DTI might look like:</p>
                 <img src='/pics/dti-example.jpg' className='mt-3'/>
    </div>
 
@@ -29,9 +29,9 @@ const QOneTwo = () => {
 
             <article className='py-10 border-t border-gray-300'>
             <h1 className='text-3xl font-myFont5'>How to calculate monthly mortgage payments?</h1>
-            <p className='mt-5 text-sm font-myFont3 text-gray-600'>Your monthly mortgage payment includes loan principal and interest, property taxes, homeowners insurance, and mortgage insurance (PMI), if applicable. While not typically included in your mortgage payment, homeowners also pay monthly utilities and sometimes pay homeowners association (HOA) fees, so it’s a good idea to factor these into your monthly budget. This mortgage calculator factors in all these typical monthly costs so you can really crunch the numbers.</p>
+            <p className='mt-5 text-sm font-myFont3 text-gray-600'>Your monthly mortgage payment includes loan principal and interest, property taxes, homeowners insurance, and mortgage insurance &lpar;PMI&rpar;, if applicable. While not typically included in your mortgage payment, homeowners also pay monthly utilities and sometimes pay homeowners association &lpar;HOA&rpar; fees, so it&apos;s a good idea to factor these into your monthly budget. This mortgage calculator factors in all these typical monthly costs so you can really crunch the numbers.</p>
             <h2 className='text-xl font-myFont5 mt-5'>Formula for calculating monthly mortgage payments</h2>
-            <p className='mt-4 text-sm font-myFont3 text-gray-600'>The easiest way to calculate your mortgage payment is to use a calculator, but for the curious or mathematically inclined, here’s the formula for calculating principal and interest yourself:</p>
+            <p className='mt-4 text-sm font-myFont3 text-gray-600'>The easiest way to calculate your mortgage payment is to use a calculator, but for the curious or mathematically inclined, here&apos;s the formula for calculating principal and interest yourself:</p>
             <div className='w-full md:w-8/12 mx-auto'>
             <img src='/pics/payments-formula.jpg' className='mt-4'/>
             <div className="text-sm font-myFont3 text-gray-600">
@@ -49,14 +49,14 @@ const QOneTwo = () => {
     <div className="text-xs text-gray-700 flex gap-3 flex-col">
       <p>For example:</p>
       <p>For example:
-      for a 30-year loan, n = 30×12 = <strong>360</strong> months</p>
+      for a 30-year loan, n = 30&times;12 = <strong>360</strong> months</p>
     </div>
   </ul>
 </div>
-<p className='mt-5 text-sm font-myFont3 text-gray-800'>Here’s a simple example:</p>
+<p className='mt-5 text-sm font-myFont3 text-gray-800'>Here&#40;s a simple example:</p>
 <img src='/pics/payments-example.jpg' className='mt-3'/>
             </div>
-            <p className='mt-5 text-sm font-myFont3 text-gray-600'>This formula assumes a fixed-rate mortgage, where the interest rate remains constant throughout the loan term. And remember, you’ll still need to add on taxes, insurance, utilities, and HOA fees if applicable.</p>
+            <p className='mt-5 text-sm font-myFont3 text-gray-600'>This formula assumes a fixed-rate mortgage, where the interest rate remains constant throughout the loan term. And remember, you&#40;ll still need to add on taxes, insurance, utilities, and HOA fees if applicable.</p>
             </article>
             <article>
             </article>
