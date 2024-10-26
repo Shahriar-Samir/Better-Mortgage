@@ -3,12 +3,12 @@ import React from 'react';
 
 const Calculator = () => {
     return (
-        <section className='bg-[#F0F7F1] h-[100vh] flex flex-col items-center justify-center gap-10'>
+        <section className='bg-[#F0F7F1] h-[100vh] flex flex-col items-center justify-center gap-10 mt-20'>
             <div className='mt-24 w-11/12 mx-auto max-w-[1200px]'>
                 <h1 className='text-5xl font-myFont5'>Mortgage calculator</h1>
                 <p className='mt-8 max-w-[800px] font-myFont3 text-gray-600'>Our mortgage calculator includes key factors like homeowners association fees, property taxes, and private mortgage insurance (PMI). Get the whole picture and calculate your total monthly payment.</p>
             </div>
-            <div className='flex flex-col  gap-10 justify-between items-center w-11/12 mx-auto max-w-[1200px]'>
+            <div className='flex flex-col md:flex-row gap-10 justify-between items-center w-11/12 mx-auto max-w-[1200px]'>
                 <div className=''>
                 <h2 className='text-md font-myFont5'>Home Price</h2>
                 <input className='mt-5'/>
