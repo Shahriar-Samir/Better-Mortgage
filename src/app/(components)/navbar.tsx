@@ -21,17 +21,17 @@ const Navbar = () => {
   const [btnText, setBtnText] = useState('text-black')
   const [bannerHeight, setBannerHeight] = useState(0)
   const [logo,setLogo]= useState(<Tele/>)
-  const bannerRef = useRef(null); 
+  const bannerRef = useRef<HTMLDivElement | null>(null); 
 
   useEffect(() => {
 
     if (bannerRef.current) {
-      setBannerHeight(bannerRef.current.offsetHeight)
+      setBannerHeight(bannerRef?.current?.offsetHeight)
     }
 
     const handleResize = () => {
       if (bannerRef.current) {
-        setBannerHeight(bannerRef.current.offsetHeight)
+        setBannerHeight(bannerRef?.current?.offsetHeight)
       }
     };
 
