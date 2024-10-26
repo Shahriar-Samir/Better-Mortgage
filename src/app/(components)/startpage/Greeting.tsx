@@ -37,8 +37,9 @@ const Greeting = () => {
                     <h1 className='text-center font-myFont3 text-gray-600'>After a few questions, you'll unlock:</h1>
                     <div className='flex flex-col items-start gap-3 mt-6 '>
                         <h2 className='flex gap-3 items-center font-myFont3 text-gray-600'><Mortgage/> Custom mortgage rates</h2>
-                        <h2 className='flex gap-3 items-center font-myFont3 text-gray-600'> Exclusive offers</h2>
-                        <h2 className='flex gap-3 items-center font-myFont3 text-gray-600'> A personalized dashboard</h2>
+                        <h2 className='flex gap-3 items-center font-myFont3 text-gray-600'>
+                        <Mortgage/>  Exclusive offers</h2>
+                        <h2 className='flex gap-3 items-center font-myFont3 text-gray-600'><Mortgage/> A personalized dashboard</h2>
                     </div>
                     </div>
                 </div>
